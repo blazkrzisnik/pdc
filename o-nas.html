@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="sl" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>O nas · PD Cempin</title>
+  <meta name="description" content="Spoznaj Plezalno društvo Cempin iz Poljan nad Škofjo Loko.">
+  <meta name="theme-color" content="#faf6ef" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#161618" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    // Tema se nastavi takoj, da stran ne utripne
+    try { var t = localStorage.getItem("cempin-theme"); if (t) document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#vsebina">Preskoči na vsebino</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="PD Cempin, domov">
+      <img src="assets/logo.png" alt="" width="38" height="38">
+      PD Cempin
+    </a>
+    <div class="nav-wrap">
+      <nav class="main-nav" aria-label="Glavni meni">
+        <ul>
+          <li><a href="o-nas.html" aria-current="page">O nas</a></li>
+          <li><a href="treningi.html">Treningi / Rekreacija</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Preklopi temni način" aria-pressed="false"></button>
+      <button class="menu-toggle" type="button" aria-label="Odpri meni" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="vsebina">
+    <section class="page-head">
+      <div class="container reveal">
+        <span class="eyebrow">O nas</span>
+        <h1>Plezalno društvo Cempin</h1>
+        <p>Društvo iz Poljanske doline, ustanovljeno leta 2012, ki združuje ljubitelje plezanja in gora.</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <div class="container split">
+        <div class="split__media reveal reveal--left">
+          <img src="assets/spust-po-vrvi.jpg" alt="Naveza se spušča po vrvi" loading="lazy" style="object-position:45% 50%"><span class="credit">Foto: [avtor fotografije]</span>
+        </div>
+        <div class="reveal reveal--right">
+          <span class="eyebrow">Naša zgodba</span>
+          <h2>Iz Poljan v stene</h2>
+          <!-- OSNUTEK: dopolni z zgodbo društva (ustanovitelji, začetki, uspehi) -->
+          <p>Društvo smo ustanovili leta 2012 v Poljanah nad Škofjo Loko, ker smo si želeli prostor, kjer lahko plezanje raste skupaj z ljudmi. Danes povezujemo otroke, mlade in odrasle, ki jih vleče navzgor.</p>
+          <p>Ime in znak društva, cepin, sta simbol vsega, kar počnemo: od skale in ledu do vrhov.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <img src="assets/logo.png" alt="" width="52" height="52">
+            <span>PD Cempin</span>
+          </div>
+          <p>Plezalno društvo Cempin iz Poljan nad Škofjo Loko. Plezamo, treniramo in hodimo v gore skupaj, od leta 2012.</p>
+        </div>
+        <div>
+          <h3>Kontakt</h3>
+          <ul>
+            <li><a href="mailto:pd.cempin@gmail.com">pd.cempin@gmail.com</a></li>
+            <li><a href="tel:+38631757370">031 757 370</a></li>
+            <li>Poljane nad Škofjo Loko 77</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> Plezalno društvo Cempin. Vse pravice pridržane.</span>
+        <span>Poljane nad Škofjo Loko, Slovenija</span>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+</html>

@@ -1,154 +1,26 @@
-<!doctype html>
-<html lang="sl" class="no-js">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>PD Cempin · Plezalno društvo</title>
-  <meta name="description" content="Plezalno društvo Cempin iz Poljan nad Škofjo Loko: športno plezanje, alpinizem in treningi za vse starosti.">
-  <meta name="theme-color" content="#faf6ef" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#161618" media="(prefers-color-scheme: dark)">
-  <link rel="icon" href="assets/logo.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <script>
-    // Tema se nastavi takoj, da stran ne utripne
-    try { var t = localStorage.getItem("cempin-theme"); if (t) document.documentElement.setAttribute("data-theme", t); } catch (e) {}
-  </script>
-</head>
-<body class="is-home">
-  <a class="skip-link" href="#vsebina">Preskoči na vsebino</a>
-  <header class="site-header">
-    <a class="brand" href="index.html" aria-label="PD Cempin, domov">
-      <img src="assets/logo.png" alt="" width="38" height="38">
-      PD Cempin
-    </a>
-    <div class="nav-wrap">
-      <nav class="main-nav" aria-label="Glavni meni">
-        <ul>
-          <li><a href="o-nas.html">O nas</a></li>
-          <li><a href="treningi.html">Treningi / Rekreacija</a></li>
-          <li><a href="kontakt.html">Kontakt</a></li>
-        </ul>
-      </nav>
-      <button class="theme-toggle" type="button" aria-label="Preklopi temni način" aria-pressed="false"></button>
-      <button class="menu-toggle" type="button" aria-label="Odpri meni" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </header>
-
-  <main id="vsebina">
-    <!-- Naslovna slika: samo slika, brez besedila -->
-    <section class="hero" aria-label="Alpinist na zasneženem grebenu">
-      <img src="assets/fotografije/ntrp1092.jpg" alt="Alpinist na zasneženem grebenu pod gorskimi vrhovi" fetchpriority="high">
-      <span class="scroll-cue" aria-hidden="true"></span>
-    </section>
-
-    <h1 class="sr-only">Plezalno društvo Cempin</h1>
-
-
-    <!-- Mix: Treningi otrok -->
-    <section class="section">
-      <div class="container split split--reverse">
-        <div class="logo-badge reveal reveal--right">
-          <img src="assets/logo-izrez.png" alt="Logotip Plezalnega društva Cempin">
-        </div>
-        <div class="reveal reveal--left">
-          <span class="eyebrow">Termini</span>
-          <h2>Termini treningov</h2>
-          <ul class="ticks">
-            <li><strong>Mlajši otroci</strong><br>sreda, 17.00 – 18.30</li>
-            <li><strong>Tekmovalna skupina</strong><br>sreda, 17.00 – 18.30 in četrtek, 20.00 – 21.30</li>
-            <li><strong>Starejša skupina</strong><br>četrtek, 20.00 – 21.30</li>
-          </ul>
-          <a class="btn btn--ghost" href="treningi.html">Več o treningih <span class="arrow" aria-hidden="true">→</span></a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Mix: Skupine -->
-    <section class="section section--alt">
-      <div class="container">
-        <div class="reveal" style="max-width:640px;margin-bottom:40px">
-          <span class="eyebrow">Skupine</span>
-          <h2>Najdi svojo skupino</h2>
-          <p>Ne glede na to, ali si šele začel ali že plezaš težke smeri, imamo program zate.</p>
-        </div>
-        <div class="cards cards--3">
-          <article class="card reveal" style="--d:0s">
-            <div class="card__img"><img src="assets/fotografije/ntrp1962.jpg" alt="Plezalka na umetni steni" loading="lazy" style="object-position:65% 40%"><span class="credit">Foto: Nejc Trpin</span></div>
-            <div class="card__body">
-              <h3>Mlajši otroci</h3>
-              <p>Igriv uvod v plezanje, koordinacija, moč in varnost.</p>
-              <div class="card__meta"><span class="tag">Sreda 17.00</span></div>
-            </div>
-          </article>
-          <article class="card reveal" style="--d:.12s">
-            <div class="card__img"><img src="assets/fotografije/ntrp1238.jpg" alt="Plezalka na tekmi v balvanih" loading="lazy" style="object-position:40% 40%"><span class="credit">Foto: Nejc Trpin</span></div>
-            <div class="card__body">
-              <h3>Tekmovalna skupina</h3>
-              <p>Za starejše otroke, ki želijo napredovati in tekmovati.</p>
-              <div class="card__meta"><span class="tag">Sreda 17.00</span><span class="tag">Četrtek 20.00</span></div>
-            </div>
-          </article>
-          <article class="card reveal" style="--d:.24s">
-            <div class="card__img"><img src="assets/fotografije/ntrp2214.jpg" alt="Plezalec na umetni steni" loading="lazy" style="object-position:60% 35%"><span class="credit">Foto: Nejc Trpin</span></div>
-            <div class="card__body">
-              <h3>Starejša skupina</h3>
-              <p>Trening za starejše plezalce, skupaj s tekmovalno skupino.</p>
-              <div class="card__meta"><span class="tag">Četrtek 20.00</span></div>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- Rekreacija za vse generacije -->
-    <section class="section" id="rekreacija">
-      <div class="container">
-        <div class="band reveal reveal--zoom">
-          <img src="assets/fotografije/ntrp1822.jpg" alt="Plezalka na umetni steni" loading="lazy" style="object-position:55% 40%"><span class="credit">Foto: Nejc Trpin</span>
-          <div class="band__inner">
-            <span class="eyebrow" style="color:#fff">Sreda · 18.30 – 20.00</span>
-            <h2>Rekreacija za vse generacije</h2>
-            <p>Takoj po treningu otrok je stena odprta za vse, ki želijo plezati rekreativno, ne glede na starost ali znanje. Dobimo se v telovadnici Osnovne šole Ivana Tavčarja v Gorenji vasi.</p>
-            <div class="btn-row">
-              <a class="btn" href="treningi.html#rekreacija">Termini in podrobnosti <span class="arrow" aria-hidden="true">→</span></a>
-              <a class="btn btn--light-ghost" href="kontakt.html">Kontakt</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div>
-          <div class="footer-brand">
-            <img src="assets/logo.png" alt="" width="52" height="52">
-            <span>PD Cempin</span>
-          </div>
-          <p>Plezalno društvo Cempin iz Poljan nad Škofjo Loko. Plezamo, treniramo in hodimo v gore skupaj, od leta 2012.</p>
-        </div>
-        <div>
-          <h3>Kontakt</h3>
-          <ul>
-            <li><a href="mailto:pd.cempin@gmail.com">pd.cempin@gmail.com</a></li>
-            <li><a href="tel:+38651653093">040 533 024 (Jakob Stanonik)</a></li>
-            <li>Poljane nad Škofjo Loko 77</li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <span>© <span data-year>2026</span> Plezalno društvo Cempin. Vse pravice pridržane.</span>
-        <span>Poljane nad Škofjo Loko, Slovenija</span>
-      </div>
-    </div>
-  </footer>
-  <script src="script.js" defer></script>
-</body>
-</html>
+<!DOCTYPE html>
+<html lang="sl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PD Cempin | Plezalno društvo Poljane</title>
+<meta name="description" content="PD Cempin: plezalno društvo iz Poljan nad Škofjo Loko. Treningi, izleti in plezanje v skupnosti.">
+<meta name="color-scheme" content="light dark">
+<script>try{var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<header><div class="in"><a class="logo" href="index.html" aria-label="PD Cempin, domov">PD Cempin</a>
+<div class="right"><nav id="nav"><a href="o-nas.html">O nas</a><a href="treningi.html">Treningi</a><a href="kontakt.html">Kontakt</a></nav><button class="tt" aria-label="Preklopi svetlo/temno temo"><i class="w"></i><i class="b"></i></button><button class="bg" aria-label="Meni" aria-expanded="false" aria-controls="nav"><span></span></button></div></div></header>
+<main>
+<div class="hero "><svg viewBox="0 0 1440 900" preserveAspectRatio="xMidYMax slice" aria-hidden="true"><defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1b5fa6"/><stop offset=".6" stop-color="#5bb2ea"/><stop offset="1" stop-color="#bfe3f8"/></linearGradient></defs><rect width="1440" height="900" fill="url(#s)"/><g fill="#fff" opacity=".55"><ellipse cx="240" cy="260" rx="190" ry="26"/><ellipse cx="340" cy="238" rx="120" ry="22"/><ellipse cx="1120" cy="330" rx="220" ry="28"/><ellipse cx="1230" cy="305" rx="130" ry="22"/></g><path d="M0 640L180 470l110 90 150-170 170 190 130-110 190 210 160-190 150 150 200-230v570H0z" fill="#8cc5ea" opacity=".75"/><path d="M0 720l140-120 130 80 190-160 170 180 150-110 200 190 170-170 290 170v310H0z" fill="#3f8fcf"/><path d="M0 820l200-110 160 80 220-120 200 130 190-90 260 120v70H0z" fill="#1c5c9c"/></svg><img src="images/banner.jpg" alt="" onerror="this.remove()"><div class="wrap"><h1>Plezamo skupaj.</h1><div class="cols"><p>Plezalno društvo iz Poljan nad Škofjo Loko za vse, ki jih vlečejo stene, skale in dobra družba.</p><div><a class="btn" href="kontakt.html">Postani član</a></div></div></div></div>
+<section><div class="wrap split"><figure class="ph " data-f="images/o-nas.jpg"><img src="images/o-nas.jpg" alt="Člani društva ob plezanju" loading="lazy" onerror="this.remove()"></figure><div><h2>O nas</h2><p>PD Cempin povezuje plezalce vseh stopenj. Od prvih korakov na steni do skupnih odprav v skale.</p><p>Društvo smo ustanovili 10. oktobra 2012, da bi plezalce iz Poljanske doline združili doma.</p><a class="btn dk" href="o-nas.html">Spoznaj društvo</a></div></div></section>
+<div class="stats"><div class="wrap"><div><b>2012</b><span>ustanovljeno 10. oktobra</span></div><div><b>2013</b><span>polnopravni člani PZS</span></div><div><b>15+</b><span>skupnih tur v prvem letu</span></div></div></div>
+<section class="alt"><div class="wrap split rev"><figure class="ph " data-f="images/treningi.jpg"><img src="images/treningi.jpg" alt="Trening na plezalni steni" loading="lazy" onerror="this.remove()"></figure><div><h2>Treningi</h2><p>Redni treningi za začetnike in izkušene. Opremo za prvi obisk lahko posodimo.</p><ul class="sched"><li><b>Ponedeljek</b><span>00:00 – 00:00</span></li><li><b>Sreda</b><span>00:00 – 00:00</span></li><li><b>Petek</b><span>00:00 – 00:00</span></li></ul><a class="btn dk" href="treningi.html">Vsi termini</a></div></div></section>
+<section><div class="wrap"><h2 class="big">Iz društva</h2><div class="cards">
+<div class="card"><figure class="ph " data-f="images/izlet.jpg"><img src="images/izlet.jpg" alt="Skupni izlet v skale" loading="lazy" onerror="this.remove()"></figure><h3>Izleti v naravo</h3><p>Skupna plezanja v skalah in športnih smereh.</p></div>
+<div class="card"><figure class="ph " data-f="images/tecaj.jpg"><img src="images/tecaj.jpg" alt="Tečaj plezanja" loading="lazy" onerror="this.remove()"></figure><h3>Tečaji</h3><p>Šola plezanja za tiste, ki šele začenjajo.</p></div>
+<div class="card"><figure class="ph " data-f="images/gore.jpg"><img src="images/gore.jpg" alt="Planinski vzpon" loading="lazy" onerror="this.remove()"></figure><h3>Gore</h3><p>Planinski in alpinistični vzponi s člani društva.</p></div></div></div></section>
+<section class="alt"><div class="wrap split"><figure class="ph wide" data-f="images/lokacija.jpg"><img src="images/lokacija.jpg" alt="Poljane nad Škofjo Loko" loading="lazy" onerror="this.remove()"></figure><div><h2>Kontakt</h2><p>Poljane nad Škofjo Loko 77<br>4223 Poljane nad Škofjo Loko</p><p><a href="mailto:pd.cempin@gmail.com">pd.cempin@gmail.com</a><br><a href="tel:+38641532138">041 532 138</a></p><a class="btn dk" href="kontakt.html">Kje smo</a></div></div></section>
+</main>
+<footer><div class="wrap"><div class="top"><div><a class="logo" href="index.html">PD Cempin</a><p>Plezalno društvo Cempin<br>Poljane nad Škofjo Loko 77, 4223 Poljane nad Škofjo Loko</p></div>
+<div class="links"><a href="o-nas.html">O nas</a><a href="treningi.html">Treningi</a><a href="kontakt.html">Kontakt</a><a href="#" rel="noopener">Instagram</a><a href="#" rel="noopener">Facebook</a></div></div>
+<div class="bot">© <span id="y"></span> PD Cempin. Vse pravice pridržane.</div></div></footer>
+<script src="script.js"></script></body></html>

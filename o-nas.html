@@ -1,94 +1,26 @@
-<!doctype html>
-<html lang="sl" class="no-js">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>O nas · PD Cempin</title>
-  <meta name="description" content="Spoznaj Plezalno društvo Cempin iz Poljan nad Škofjo Loko.">
-  <meta name="theme-color" content="#faf6ef" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#161618" media="(prefers-color-scheme: dark)">
-  <link rel="icon" href="assets/logo.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <script>
-    // Tema se nastavi takoj, da stran ne utripne
-    try { var t = localStorage.getItem("cempin-theme"); if (t) document.documentElement.setAttribute("data-theme", t); } catch (e) {}
-  </script>
-</head>
-<body>
-  <a class="skip-link" href="#vsebina">Preskoči na vsebino</a>
-  <header class="site-header">
-    <a class="brand" href="index.html" aria-label="PD Cempin, domov">
-      <img src="assets/logo.png" alt="" width="38" height="38">
-      PD Cempin
-    </a>
-    <div class="nav-wrap">
-      <nav class="main-nav" aria-label="Glavni meni">
-        <ul>
-          <li><a href="o-nas.html" aria-current="page">O nas</a></li>
-          <li><a href="treningi.html">Treningi / Rekreacija</a></li>
-          <li><a href="kontakt.html">Kontakt</a></li>
-        </ul>
-      </nav>
-      <button class="theme-toggle" type="button" aria-label="Preklopi temni način" aria-pressed="false"></button>
-      <button class="menu-toggle" type="button" aria-label="Odpri meni" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </header>
-
-  <main id="vsebina">
-    <section class="page-head">
-      <div class="container reveal">
-        <span class="eyebrow">O nas</span>
-        <h1>Plezalno društvo Cempin</h1>
-        <p>Društvo iz Poljanske doline, ustanovljeno leta 2012, ki združuje ljubitelje plezanja in gora.</p>
-      </div>
-    </section>
-
-    <section class="section" style="padding-top:0">
-      <div class="container split">
-        <div class="logo-badge reveal reveal--left">
-          <img src="assets/logo-izrez.png" alt="Logotip Plezalnega društva Cempin">
-        </div>
-        <div class="reveal reveal--right">
-          <span class="eyebrow">Naša zgodba</span>
-          <h2>Iz Poljan v stene</h2>
-          <!-- OSNUTEK: dopolni z zgodbo društva (ustanovitelji, začetki, uspehi) -->
-          <p>Društvo smo ustanovili leta 2012 v Poljanah nad Škofjo Loko, ker smo si želeli prostor, kjer lahko plezanje raste skupaj z ljudmi. Danes povezujemo otroke, mlade in odrasle, ki jih vleče navzgor.</p>
-          <p>Ime in znak društva, cepin, sta simbol vsega, kar počnemo: od skale in ledu do vrhov.</p>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div>
-          <div class="footer-brand">
-            <img src="assets/logo.png" alt="" width="52" height="52">
-            <span>PD Cempin</span>
-          </div>
-          <p>Plezalno društvo Cempin iz Poljan nad Škofjo Loko. Plezamo, treniramo in hodimo v gore skupaj, od leta 2012.</p>
-        </div>
-        <div>
-          <h3>Kontakt</h3>
-          <ul>
-            <li><a href="mailto:pd.cempin@gmail.com">pd.cempin@gmail.com</a></li>
-            <li><a href="tel:+38651653093">040 533 024 (Jakob Stanonik)</a></li>
-            <li>Poljane nad Škofjo Loko 77</li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <span>© <span data-year>2026</span> Plezalno društvo Cempin. Vse pravice pridržane.</span>
-        <span>Poljane nad Škofjo Loko, Slovenija</span>
-      </div>
-    </div>
-  </footer>
-  <script src="script.js" defer></script>
-</body>
-</html>
+<!DOCTYPE html>
+<html lang="sl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>O nas | PD Cempin | Plezalno društvo Poljane</title>
+<meta name="description" content="PD Cempin: plezalno društvo iz Poljan nad Škofjo Loko. Treningi, izleti in plezanje v skupnosti.">
+<meta name="color-scheme" content="light dark">
+<script>try{var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<header><div class="in"><a class="logo" href="index.html" aria-label="PD Cempin, domov">PD Cempin</a>
+<div class="right"><nav id="nav"><a href="o-nas.html" aria-current="page">O nas</a><a href="treningi.html">Treningi</a><a href="kontakt.html">Kontakt</a></nav><button class="tt" aria-label="Preklopi svetlo/temno temo"><i class="w"></i><i class="b"></i></button><button class="bg" aria-label="Meni" aria-expanded="false" aria-controls="nav"><span></span></button></div></div></header>
+<main>
+<div class="hero short"><svg viewBox="0 0 1440 900" preserveAspectRatio="xMidYMax slice" aria-hidden="true"><defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1b5fa6"/><stop offset=".6" stop-color="#5bb2ea"/><stop offset="1" stop-color="#bfe3f8"/></linearGradient></defs><rect width="1440" height="900" fill="url(#s)"/><g fill="#fff" opacity=".55"><ellipse cx="240" cy="260" rx="190" ry="26"/><ellipse cx="340" cy="238" rx="120" ry="22"/><ellipse cx="1120" cy="330" rx="220" ry="28"/><ellipse cx="1230" cy="305" rx="130" ry="22"/></g><path d="M0 640L180 470l110 90 150-170 170 190 130-110 190 210 160-190 150 150 200-230v570H0z" fill="#8cc5ea" opacity=".75"/><path d="M0 720l140-120 130 80 190-160 170 180 150-110 200 190 170-170 290 170v310H0z" fill="#3f8fcf"/><path d="M0 820l200-110 160 80 220-120 200 130 190-90 260 120v70H0z" fill="#1c5c9c"/></svg><img src="images/banner.jpg" alt="" onerror="this.remove()"><div class="wrap"><h1>O nas</h1></div></div>
+<section><div class="wrap split"><figure class="logo-card"><img src="images/logo-cempin.png" alt="Logotip Plezalno društvo Cempin 2012"></figure><div><h2>Naša zgodba</h2><p>Cempin je mlado društvo, rojeno iz potrebe. Plezalci iz Poljanske doline so prej odhajali v sosednja društva, ker doma ni bilo organiziranega plezanja. Zato smo ga naredili sami.</p><p>Danes se ukvarjamo z alpinizmom, športnim plezanjem, turnim smučanjem in turnim kolesarjenjem ter delamo z mladimi.</p></div></div></section>
+<div class="stats"><div class="wrap"><div><b>2012</b><span>ustanovljeno 10. oktobra</span></div><div><b>2013</b><span>polnopravni člani PZS</span></div><div><b>15+</b><span>skupnih tur v prvem letu</span></div></div></div>
+<section class="alt"><div class="wrap"><h2 class="big">Kako smo rasli</h2><ol class="tl"><li><b>2012</b><div><h3>Ustanovitev</h3><p>10. oktobra so Drago Frelih, Janez Špik, Jakob Stanonik in Cene Polajnar združili plezalce iz vse Poljanske doline. V register društev smo bili vpisani še istega leta, ravno za Miklavža.</p></div></li><li><b>2013</b><div><h3>Polnopravni člani PZS</h3><p>Po pozitivnih mnenjih Meddruštvenega odbora Gorenjske in Komisije za športno plezanje smo decembra postali polnopravni člani Planinske zveze Slovenije.</p></div></li><li><b>Alpinistična šola</b><div><h3>Prva generacija</h3><p>Predavanja gostimo pri poljanskih gasilcih. Plezanje smo vadili v Ospu, Črnem Kalu in Vipavi, led pa v Žetini.</p></div></li><li><b>Podpečna</b><div><h3>Svoje plezališče</h3><p>Zaraščen kamnolom smo očistili z vitlom, vrvmi in z gasilci. Dve smeri že imata svedrovce in varovališča.</p></div></li><li><b>Plezalna stena</b><div><h3>Dom v kulturnem domu</h3><p>Po dogovoru s krajevno skupnostjo in župnijo smo novembra z lastnim prostovoljnim delom postavili umetno steno. Najem velja do leta 2020.</p></div></li></ol></div></section>
+<section><div class="wrap split rev"><figure class="ph wide" data-f="images/podpecna.jpg"><img src="images/podpecna.jpg" alt="Plezališče Podpečna" loading="lazy" onerror="this.remove()"></figure><div><h2>Podpečna</h2><p>Kamnolom je lastnik, g. Ciril Stanonik, z navdušenjem odstopil za plezališče. Steno smo s traktorjem, vitlom in ročnim vlečenjem jeklenice očistili drevja, zemlje in nestabilnega kamenja.</p><p>Čaka nas še ureditev podnožja in pristopa, za kar bo potreben stroj.</p></div></div></section>
+<section class="quote"><div class="wrap"><blockquote>V tem društvu član s ponosom izgovori besedo Cempin.</blockquote><cite>Drago Frelih, predsednik društva</cite></div></section>
+<section><div class="wrap split"><figure class="ph wide" data-f="images/mladi.jpg"><img src="images/mladi.jpg" alt="Mladi plezalci" loading="lazy" onerror="this.remove()"></figure><div><h2>Mladi</h2><p>Za osnovnošolce iz Poljan smo organizirali dvodnevni plezalni tabor v Vipavi. Zgradili smo tudi premično steno za promocijo in vadbo otrok poleti.</p><p>Skupina mladih že pridobiva izkušnje pod vodstvom mentorja. Največji poudarek dajemo izobraževanju vaditeljev in trenerjev.</p></div></div></section>
+<section class="alt"><div class="wrap split rev"><figure class="ph wide" data-f="images/gore.jpg"><img src="images/gore.jpg" alt="Severna stena Triglava" loading="lazy" onerror="this.remove()"></figure><div><h2>Velike stene</h2><p>Prva generacija alpinistične šole se je v prvem poletju spopadla s Triglavsko severno steno, Veliko Mojstrovko, Veliko Babo, Paklenico in Arcom.</p><p>Pozimi smo organizirali hitrostno tekmo v lednem plezanju za poljanski pokal. Prvi turnosmučarski reli z Blegoša je privabil vso slovensko reprezentanco.</p></div></div></section>
+<section><div class="wrap split"><figure class="ph wide" data-f="images/stena.jpg"><img src="images/stena.jpg" alt="Umetna plezalna stena v Poljanah" loading="lazy" onerror="this.remove()"></figure><div><h2>Stena doma</h2><p>Umetna stena v Kulturnem domu v Poljanah je plod prostovoljnega dela članov in simpatizerjev. Za oprimke upamo, da nam jih bo spet prinesel Miklavž.</p><a class="btn dk" href="kontakt.html">Pridruži se</a></div></div></section>
+</main>
+<footer><div class="wrap"><div class="top"><div><a class="logo" href="index.html">PD Cempin</a><p>Plezalno društvo Cempin<br>Poljane nad Škofjo Loko 77, 4223 Poljane nad Škofjo Loko</p></div>
+<div class="links"><a href="o-nas.html">O nas</a><a href="treningi.html">Treningi</a><a href="kontakt.html">Kontakt</a><a href="#" rel="noopener">Instagram</a><a href="#" rel="noopener">Facebook</a></div></div>
+<div class="bot">© <span id="y"></span> PD Cempin. Vse pravice pridržane.</div></div></footer>
+<script src="script.js"></script></body></html>
